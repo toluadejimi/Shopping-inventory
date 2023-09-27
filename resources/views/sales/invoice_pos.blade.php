@@ -58,12 +58,12 @@
               </td>
             </tr>
 
-            <tr class="mt-10" v-show="pos_settings.show_discount">
+            {{-- <tr class="mt-10" v-show="pos_settings.show_discount">
               <td colspan="3" class="total">{{ __('translate.Tax') }}</td>
               <td class="total text-right">
                 @{{sale.taxe}} (@{{formatNumber(sale.tax_rate,2)}} %)
               </td>
-            </tr>
+            </tr> --}}
 
             {{-- Discount --}}
             <tr class="mt-10" v-show="pos_settings.show_discount">
@@ -74,11 +74,11 @@
 
             </tr>
 
-            <tr class="mt-10" v-show="pos_settings.show_discount">
+            {{-- <tr class="mt-10" v-show="pos_settings.show_discount">
               <td colspan="3" class="total">{{ __('translate.Shipping') }}</td>
               <td class="total text-right">
                 @{{sale.shipping}}</td>
-            </tr>
+            </tr> --}}
 
             <tr class="mt-10">
               <td colspan="3" class="total">{{ "Total" }}</td>
@@ -86,11 +86,11 @@
                 @{{sale.GrandTotal}}</td>
             </tr>
 
-            <tr v-show="isPaid">
+            {{-- <tr v-show="isPaid">
               <td colspan="3" class="total">{{ __('translate.Paid') }}</td>
               <td class="total text-right">
                  @{{sale.paid_amount}}</td>
-            </tr>
+            </tr> --}}
 
             {{-- <tr v-show="isPaidLessThanTotal">
               <td colspan="3" class="total">{{ __('translate.Due') }}</td>

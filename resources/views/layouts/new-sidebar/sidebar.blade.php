@@ -344,7 +344,7 @@
                                 <li>
                                     @include('components.sidebar.child-navitem', [
                                         'href'=>'/purchase/purchases',
-                                        'title'=> __('translate.ListPurchases')
+                                        'title'=> "All Purchases"
                                     ])
                                 </li>
                             @endif
@@ -352,7 +352,7 @@
                                 <li>
                                     @include('components.sidebar.child-navitem', [
                                         'href'=>'/purchase/purchases/create',
-                                        'title'=> __('translate.AddPurchase')
+                                        'title'=> "Add Purchase"
                                     ])
                                 </li>
                             @endcan
