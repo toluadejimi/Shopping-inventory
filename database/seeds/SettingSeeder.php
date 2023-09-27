@@ -24,7 +24,7 @@ class SettingSeeder extends Seeder
                 'CompanyName' => 'Posly',
                 'CompanyPhone' => '6315996770',
                 'CompanyAdress' => '3618 Abia Martin Drive',
-                'footer' => 'Posly - POS with Inventory Management',
+                'footer' => 'TeeTech Inventory Solutions',
                 'developed_by' => 'Posly',
                 'app_name' => 'Posly',
                 'logo' => 'logo-default.svg',
@@ -32,7 +32,7 @@ class SettingSeeder extends Seeder
                 'default_language' => 'en',
                 'symbol_placement' => 'before',
             )
-            
+
         );
     }
 }
